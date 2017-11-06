@@ -4,8 +4,10 @@
              xmlns:local="clr-namespace:IntroToXam"
              x:Class="IntroToXam.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout  HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Your entry: " TextColor="Blue" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Entry Placeholder="Type anything..." HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Button Text="Send" TextColor="Blue" HorizontalOptions="Center" VerticalOptions="Center"/>
+    </StackLayout>
 
 </ContentPage>
