@@ -20,6 +20,9 @@ namespace IntroToXam.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            App.TextToSpeech = new TextToSpeechImplementation();
+
             LoadApplication(new App());
         }
     }

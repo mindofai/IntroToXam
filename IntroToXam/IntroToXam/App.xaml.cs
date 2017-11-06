@@ -9,6 +9,8 @@ namespace IntroToXam
 {
     public partial class App : Application
     {
+        public static ITextToSpeech TextToSpeech { get; set; }
+
         public App()
         {
             InitializeComponent();

@@ -16,7 +16,7 @@ namespace IntroToXam
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            
+            App.TextToSpeech.Speak(entryText.Text);
         }
     }
 }
