@@ -4,7 +4,10 @@
              xmlns:local="clr-namespace:IntroToXam"
              x:Class="IntroToXam.MainPage">
 
-
-    <Button Text="Send" TextColor="Blue" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_Clicked"/>
+    <StackLayout  HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Your entry: " TextColor="Blue" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Entry Placeholder="Type anything..." HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Button Text="Send" TextColor="Blue" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_Clicked"/>
+    </StackLayout>
 
 </ContentPage>
